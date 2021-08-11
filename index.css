@@ -1,0 +1,546 @@
+:root{
+    --primary-color: #d4af38;
+    --secondary-color: #fff;
+}
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: whitesmoke;
+    font-family: sans-serif;
+}
+.hero{
+    width: 95%;
+    margin: 0 auto;
+    background-color: var(--secondary-color);
+}
+/* header section */
+
+.header{
+    display: flex;
+    background-color: var(--secondary-color);
+    height: 70px;
+    padding-top: 40px;
+}
+.header ul{
+    display: flex;
+}
+.header ul li{
+    list-style: none;
+}
+.header ul li a{
+    text-decoration: none;
+    text-transform: capitalize;
+    color: var(--primary-color);
+    font-size: 12px;
+    margin-left: 10px;
+}
+.icons{
+    margin-left: 60px;
+}
+.icons i{
+    color: var(--primary-color);
+    font-size: 12px;
+    margin-left: 10px;
+}
+
+/* pastel heaven */
+
+.pastel-heaven{
+    background-image: url(images/bg-img-1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 36vh;
+    width: 95%;
+    margin: 0 auto;
+}
+.pastel-heaven h1{
+    color: var(--secondary-color);
+    font-family: cursive;
+    text-transform: capitalize;
+    text-align: center;
+    padding-top: 45px;
+    font-size: 2.5rem;
+}
+hr{
+    background-color: var(--primary-color);
+    border: 1px solid var(--primary-color);
+    width: 30vw;
+    margin-left: 8rem;
+    height: 1px;
+}
+.buttons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+.btn1{
+    background-color: var(--secondary-color);
+    color: var(--primary-color);
+    border: 1px solid var(--primary-color);
+    text-transform: uppercase;
+    height: 30px;
+    width: 100px;
+    font-size: 10px;
+    margin-right: 10px;
+}
+.btn2{
+    background-color: transparent;
+    color: var(--secondary-color);
+    border: 1px solid var(--secondary-color);
+    text-transform: uppercase;
+    height: 28px;
+    width: 100px;
+    font-size: 10px;
+}
+.cakes{
+    display: flex;
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+.cakes img{
+    height: 100px;
+    width: 170px;
+}
+.cake-img2 img{
+    margin-left: 15px;
+}
+.cakes h3{
+    text-transform: uppercase;
+    font-size: 12px;
+    text-align: center;
+    margin-top: 20px;
+}
+.cakes p{
+    font-size: 10px;
+    font-family: cursive;
+    color: #242424;
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 10px;
+    line-height: 18px;
+}
+.cakes h5{
+    color: var(--primary-color);
+    font-size: 10px;
+    text-align: center;
+    margin-top: 20px;
+    text-transform: uppercase;
+}
+.cake-img3{
+    display: none;
+}
+
+/* daily offers */
+
+.daily-offers{
+    background-image: url(images/bg-img-2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 40vh;
+    width: 95%;
+    margin: 0 auto;
+    margin-top: 70px;
+    margin-bottom: 50px;
+}
+.daily-offers h1{
+    color: #000;
+    font-family: cursive;
+    text-transform: capitalize;
+    text-align: center;
+    padding-top: 35px;
+    font-size: 2.5rem;
+}
+.daily-offers p{
+    color: #3a3b3c;
+    font-size: 12px;
+    text-align: center;
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 10px;
+    line-height: 20px;
+}
+.read{
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+    border: 1px solid var(--primary-color);
+    text-transform: uppercase;
+    height: 30px;
+    width: 100px;
+    font-size: 10px;
+    margin: 25px 0 0 140px;
+}
+
+/* best deals */
+
+.best-deals{
+    text-align: center;
+}
+.best-deals h3{
+    color: var(--primary-color);
+    font-family: cursive;
+}
+.best-deals h1{
+    color: #000;
+    font-size: 28px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+.best-deals hr{
+    margin-top: 15px;
+}
+.best-deals p{
+    color: #3a3b3c;
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 15px;
+    font-size: 13px;
+    line-height: 18px;
+    margin-bottom: 40px;
+}
+
+/* cup cakes */
+.cup-cakes{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 30px;
+    text-align: center;
+}
+.cup-cakes img{
+    height: 130px;
+    width: 170px;
+}
+.cup-cakes h1{
+    font-size: 16px;
+    text-transform: uppercase;
+    font-weight: bolder;
+    margin-top: 10px;
+}
+.cup-cakes p{
+    font-family: cursive;
+    font-size: 16px;
+    text-transform: capitalize;
+}
+.cup-cakes h6{
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+
+/* birthday cups */
+
+.birthday-cups{
+    background-image: url(images/bg-img-3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 36vh;
+    width: 95%;
+    margin: 0 auto;
+}
+.birthday-cups h1{
+    color: #000;
+    font-family: cursive;
+    text-transform: uppercase;
+    padding-top: 45px;
+    font-size: 1.5rem;
+    margin-left: 20px;
+}
+.birthday-cups p{
+    font-size: 12px;
+    margin: 10px 0 0 20px;
+    width: 75%;
+    line-height: 15px;
+}
+.read-btn{
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+    border: 1px solid var(--primary-color);
+    text-transform: uppercase;
+    height: 30px;
+    width: 100px;
+    font-size: 10px;
+    margin: 20px 0 0 20px;
+}
+.social-icons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 60px 0 20px 0;
+}
+.social-icons i{
+    color: var(--primary-color);
+    font-size: 16px;
+    margin-bottom: 40px;
+    padding-left: 20px;
+}
+
+
+
+
+@media(min-width: 768px) {
+    .header ul li a{
+        font-size: 16px;
+        margin-left: 20px;
+    }
+    .icons{
+        margin-left: 14rem;
+    }
+    .icons i{
+        font-size: 16px;
+        margin-left: 20px;
+    }
+    .pastel-heaven{
+        height: 40vh;
+    }
+    hr{
+        margin-left: 18rem;
+        margin-top: 10px;
+        width: 20vw;
+    }
+    .cake-img3{
+        display: block;
+        margin-left: 20px;
+    }
+    .cakes img{
+        height: 120px;
+        width: 210px;
+    }
+    .daily-offers{
+        height: 50vh;
+    }
+    .daily-offers p{
+        width: 45%;
+        margin-top: 20px;
+    }
+    .read{
+        margin-left: 300px;
+    }
+    .best-deals p{
+        width: 60%;
+    }
+    .birthday-cups{
+        height: 40vh;
+    }
+    .birthday-cups p{
+        width: 45%;
+    }
+}
+
+
+
+@media(min-width: 1024px) {
+    .icons{
+        margin-left: 28rem;
+    }
+    .pastel-heaven{
+        height: 45vh;
+    }
+    .pastel-heaven h1{
+        font-size: 3.2rem;
+    }
+    hr{
+        margin-left: 24rem;
+        margin-top: 10px;
+        width: 20vw;
+    }
+    .btn1{
+        height: 35px;
+        width: 140px;
+        font-size: 14px;
+    }
+    .btn2{
+        height: 34px;
+        width: 140px;
+        font-size: 14px;
+    }
+    .cake-img3{
+        margin-left: 20px;
+    }
+    .cakes img{
+        height: 130px;
+        width: 280px;
+    }
+    .cakes h3{
+        font-size: 16px;
+    }
+    .cakes p{
+        font-size: 14px;
+        line-height: 24px;
+    }
+    .cakes h5{
+        font-size: 13px;
+    }
+    .daily-offers{
+        height: 60vh;
+    }
+    .daily-offers h1{
+        font-size: 3.2rem;
+    }
+    .daily-offers p{
+        font-size: 16px;
+        line-height: 30px;
+    }
+    .read{
+        height: 35px;
+        width: 140px;
+        font-size: 14px;
+        margin-left: 25rem;
+    }
+    .best-deals h3{
+        font-size: 30px;
+    }
+    .best-deals h1{
+        font-size: 3.2rem;
+    }
+    .best-deals p{
+        font-size: 20px;
+        line-height: 30px;
+    }
+    .cup-cakes img{
+        height: 150px;
+        width: 200px;
+    }
+    
+    
+
+}
+
+@media(min-width: 1440px) {
+    .header{
+        height: 90px;
+    }
+    .header ul li a{
+        font-size: 25px;
+        margin-left: 30px;
+    }
+    .icons{
+        margin-left: 36rem;
+        
+    }
+    .icons i{
+        font-size: 25px;
+        margin-left: 30px;
+    }
+    .pastel-heaven h1{
+        font-size: 3.6rem;
+    }
+    hr{
+        margin-left: 36rem;
+        margin-top: 10px;
+        width: 15vw;
+    }
+    .btn1{
+        height: 40px;
+        width: 164px;
+        font-size: 16px;
+    }
+    .btn2{
+        height: 39px;
+        width: 164px;
+        font-size: 16px;
+    }
+    .cake-img3{
+        margin-left: 20px;
+    }
+    .cakes img{
+        height: 180px;
+        width: 400px;
+    }
+    .cakes h3{
+        font-size: 19px;
+    }
+    .cakes p{
+        font-size: 17px;
+        line-height: 30px;
+        width: 75%;
+        
+    }
+    .cakes h5{
+        font-size: 16px;
+    }
+    .daily-offers{
+        height: 70vh;
+    }
+    .daily-offers h1{
+        font-size: 3.6rem;
+        padding-top: 6rem;
+    }
+    .daily-offers p{
+        font-size: 18px;
+        line-height: 35px;
+        width: 35%;
+        margin-top: 2.5rem;
+    }
+    .read{
+        height: 40px;
+        width: 170px;
+        font-size: 16px;
+        margin-left: 35rem;
+    }
+    .best-deals h3{
+        font-size: 34px;
+    }
+    .best-deals h1{
+        font-size: 3.6rem;
+    }
+    .best-deals p{
+        font-size: 24px;
+        width: 55%;
+        margin-top: 40px;
+        line-height: 40px;
+    }
+
+
+    .cup-cakes img{
+        height: 170px;
+        width: 290px;
+    }
+    .cup-cakes h1{
+        font-size: 22px;
+        margin-top: 10px;
+    }
+    .cup-cakes p{
+        font-size: 18px;
+        letter-spacing: 2px;
+    }
+    .cup-cakes h6{
+        font-size: 16px;
+        margin-bottom: 20px;
+    }
+    .birthday-cups{
+        height: 50vh;
+    }
+    .birthday-cups h1{
+        font-size: 2.3rem;
+        padding-top: 4.5rem;
+    }
+    .birthday-cups p{
+        font-size: 18px;
+        margin: 10px 0 0 20px;
+        width: 45%;
+        line-height: 25px;
+    }
+    .read-btn{
+        height: 40px;
+        width: 160px;
+        font-size: 16px;
+        margin: 20px 0 0 20px;
+    }
+    .social-icons i{
+        font-size: 22px;
+    }
+    
+    
+}
