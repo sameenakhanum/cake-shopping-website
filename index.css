@@ -10,11 +10,10 @@
     box-sizing: border-box;
 }
 body{
-    background-color: whitesmoke;
     font-family: sans-serif;
 }
 .hero{
-    width: 95%;
+    width: 100%;
     margin: 0 auto;
     background-color: var(--secondary-color);
 }
@@ -24,7 +23,7 @@ body{
     display: flex;
     background-color: var(--secondary-color);
     height: 70px;
-    padding-top: 40px;
+    padding-top: 40px;;
 }
 .header ul{
     display: flex;
@@ -40,7 +39,7 @@ body{
     margin-left: 10px;
 }
 .icons{
-    margin-left: 60px;
+    margin-left: 40px;
 }
 .icons i{
     color: var(--primary-color);
@@ -107,10 +106,10 @@ hr{
 }
 .cakes img{
     height: 100px;
-    width: 170px;
+    width: 158px;
 }
 .cake-img2 img{
-    margin-left: 15px;
+    margin-left: 8px;
 }
 .cakes h3{
     text-transform: uppercase;
@@ -219,23 +218,25 @@ hr{
     text-align: center;
 }
 .cup-cakes img{
-    height: 130px;
-    width: 170px;
+    height: 110px;
+    width: 159px;
 }
 .cup-cakes h1{
-    font-size: 16px;
+    font-size: 14px;
     text-transform: uppercase;
     font-weight: bolder;
     margin-top: 10px;
 }
 .cup-cakes p{
     font-family: cursive;
-    font-size: 16px;
+    font-size: 12px;
     text-transform: capitalize;
+    margin-top: 8px;
 }
 .cup-cakes h6{
-    font-size: 14px;
+    font-size: 12px;
     margin-bottom: 20px;
+    margin-top: 4px;
 }
 
 /* birthday cups */
@@ -509,7 +510,7 @@ hr{
     }
     .cup-cakes h1{
         font-size: 22px;
-        margin-top: 10px;
+        margin-top: 20px;
     }
     .cup-cakes p{
         font-size: 18px;
@@ -517,7 +518,7 @@ hr{
     }
     .cup-cakes h6{
         font-size: 16px;
-        margin-bottom: 20px;
+        margin-bottom: 35px;
     }
     .birthday-cups{
         height: 50vh;
