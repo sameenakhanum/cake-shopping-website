@@ -23,7 +23,7 @@ body{
     display: flex;
     background-color: var(--secondary-color);
     height: 70px;
-    padding-top: 40px;;
+    padding-top: 30px;;
 }
 .header ul{
     display: flex;
@@ -39,7 +39,7 @@ body{
     margin-left: 10px;
 }
 .icons{
-    margin-left: 40px;
+    margin-left: 30px;
 }
 .icons i{
     color: var(--primary-color);
@@ -148,7 +148,7 @@ hr{
     height: 40vh;
     width: 95%;
     margin: 0 auto;
-    margin-top: 70px;
+    margin-top: 40px;
     margin-bottom: 50px;
 }
 .daily-offers h1{
@@ -219,7 +219,7 @@ hr{
 }
 .cup-cakes img{
     height: 110px;
-    width: 159px;
+    width: 158px;
 }
 .cup-cakes h1{
     font-size: 14px;
@@ -424,7 +424,8 @@ hr{
     }
     .header ul li a{
         font-size: 25px;
-        margin-left: 30px;
+        margin-left: 20px;
+        padding-left: 20px;
     }
     .icons{
         margin-left: 36rem;
